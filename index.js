@@ -19,8 +19,15 @@ const typeDefs =`
     }
 `
 
+const  resolverObject = {
+    Query : {
+       greeting: () => 'Hello GraphQL  From TutorialsPoint !!'
+    }
+ }
+
 const schema = makeExecutableSchema({
-    typeDefs,
+    typeDefs
+    ,resolverObject
 })
 
 const app = express();
