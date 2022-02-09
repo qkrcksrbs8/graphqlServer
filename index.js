@@ -1,6 +1,7 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 // import { graphqlExpress, graphiqlExpress } from 'apollo-server-express';
+// import { makeExecutableSchema } from 'graphql-tools';
 
 // const books = [
 //     {title: '자바 메모리구조', author: '김땡땡'}
